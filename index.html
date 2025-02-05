@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-06</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Project-06</h1>
+                <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="navbar-toggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav navbar-nav">
+                       <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                       </li>
+                       <li class="nav-item">
+                            <a class="nav-link" href="#personagens">Personagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <div id="carousel-sonic" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://cdn2.steamgriddb.com/hero/27479fa8061de66ab4b60fe1b4a76d63.png" />
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn2.steamgriddb.com/hero/d9d84f7dc910c42dc377f67ccfafee07.png" />
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="https://cdn2.steamgriddb.com/hero/98bf5944d8892949be852e1e409e1010.png" />
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-sonic" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-sonic" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-sonic" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-sonic" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-sonic" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Sobre o jogo</h2>
+                <p>Sonic the Hedgehog: Project '06 , ou simplesmente Sonic P-06 , é um futuro jogo de plataforma desenvolvido pelo programador argentino Ian "ChaosX" Moris para Microsoft Windows . É um remake não oficial do videogame de 2006 Sonic the Hedgehog , originalmente desenvolvido pela Sonic Team e publicado pela Sega .</p>
+                <p>Como o jogo original é famoso por sua baixa qualidade , a porta para PC visa consertar seus problemas, bem como restaurar o conteúdo descartado durante o desenvolvimento. Em abril de 2023, o projeto teve cinco demos lançadas, com cada demo recebendo um patch de correção de bug que resolveria certos problemas, ao mesmo tempo em que adicionaria mais melhorias de qualidade de vida, com base no feedback dos fãs.</p>
+                <p>Embora seja uma recriação fiel, Project '06 apresenta várias mudanças projetadas para melhorar a experiência. O tempo gasto em telas de carregamento foi significativamente reduzido. Os gráficos são mais detalhados e o jogo usa uma gradação de cores diferente. Os atributos dos personagens foram alterados: por exemplo, Sonic e Silver agora se movem mais rápido, enquanto os movimentos de Tails e Knuckles de Sonic Adventure (1998) e Sonic Adventure 2 (2001) foram reintroduzidos. Os jogadores também podem escolher entre várias opções cosméticas, por exemplo, fazer as animações de Sonic se assemelharem às de uma exibição de pré-lançamento de 2005. Embora o Project '06 esteja planejado para incluir todos os estágios e batalhas contra chefes do jogo original, incluindo aqueles que eram originalmente conteúdo para download , os mundos centrais e os modos de história do jogo não serão incluídos no lançamento final.</p>
+            </div>
+        </section>
+        <div class="p-1"></div>
+        <section id="personagens">
+            <div class="container">
+                <h2>Personagens</h2>
+                <div class="container g-0">
+                    <div class="row">
+                        <div class="col-md-4 post">
+                            <article id="sonic" class="card">
+                                <header class="card-header">
+                                    <h3>Sonic the hedgehog</h3>
+                                </header>
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/deulssc-dc7af6b3-5ff7-48ef-b4da-1d56d60a1a28.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZGV1bHNzYy1kYzdhZjZiMy01ZmY3LTQ4ZWYtYjRkYS0xZDU2ZDYwYTFhMjgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6XA15nSR1Aag6imqinr_EY7SpNPS0IABXxrj0OtaFX0" />
+                                <div class="card-body">
+                                    <h4 class="card-title">The blue blur</h4>
+                                    <p class="card-text">
+                                        O gameplay de Sonic the Hedgehog é o mesmo de Sonic Adventure e Sonic Adventure 2, mantendo a maioria de suas habilidades do último jogo. Um dos personagens mais rápidos do elenco, ele utiliza movimentos recorrentes, como o Spin Dash e o Homing Attack. Ele também pode desbloquear Ações Personalizadas para realizar muitos movimentos novos.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 post">
+                            <article id="shadow" class="card">
+                                <header class="card-header">
+                                    <h3>Shadow the hedgehog</h3>
+                                </header>
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0e738c17-7f3c-422e-8225-f8c782b08626/dexgi4k-a8133800-caf0-47dc-ac44-d2def60343bf.png/v1/fill/w_894,h_894/shadow_06_key_art_pose_render_by_nibroc_rock_dexgi4k-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjUwMCIsInBhdGgiOiJcL2ZcLzBlNzM4YzE3LTdmM2MtNDIyZS04MjI1LWY4Yzc4MmIwODYyNlwvZGV4Z2k0ay1hODEzMzgwMC1jYWYwLTQ3ZGMtYWM0NC1kMmRlZjYwMzQzYmYucG5nIiwid2lkdGgiOiI8PTI1MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ETda6hsCPEVQMVdy1zlmznDLLdYwdcT2baumqCLJnL4" />
+                                <div class="card-body">
+                                    <h4 class="card-title">The ultimate life form</h4>
+                                    <p class="card-text">
+                                        Partes do gameplay de Shadow the Hedgehog são semelhantes às do seu próprio jogo. Ele também é visto atacando com Chaos Blasts e Chaos Spears. Assim como Sonic, Shadow também tem "Ações Personalizadas" que permitem que ele execute mais movimentos no gameplay. Ele também pode usar o Homing Attack (que tem mais alcance que o de Sonic), fazer grind e realizar um chute deslizante. Ao derrotar inimigos suficientes, Shadow também pode usar o Chaos Boost.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 post">
+                            <article id="silver" class="card">
+                                <header class="card-header">
+                                    <h3>Silver the hedgehog</h3>
+                                </header>
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/240ee65a-c5c5-4226-8d1c-1b2d3a7045a2/deg2is2-741ba14c-21cd-4ba6-bf11-14237540a5d9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI0MGVlNjVhLWM1YzUtNDIyNi04ZDFjLTFiMmQzYTcwNDVhMlwvZGVnMmlzMi03NDFiYTE0Yy0yMWNkLTRiYTYtYmYxMS0xNDIzNzU0MGE1ZDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._4gxl7gpfgEqLMoA17MVfEgoqW3SjS0RWfFSsCEVwQQ" />
+                                <div class="card-body">
+                                    <h4 class="card-title">The Psychic from the future</h4>
+                                    <p class="card-text">
+                                        Silver é o personagem mais lento entre os três principais. Ele possui poderes psíquicos, que são a principal característica de seu gameplay. Com esses poderes, Silver pode pegar objetos ao redor do campo de jogo e jogá-los nos inimigos, incluindo carros e mísseis. Ele também tem a habilidade de levitar no ar por períodos variados (gastando sua barra de energia), e pode comprar novas habilidades na loja do jogo usando Anéis. Sua barra de energia se reabastece com o tempo.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lancamentos">
+            <div class="container">
+                <h2>Lançamentos</h2>
+                <div class="container g-0">
+                    <div class="row">
+                        <div class="col-md-4 post">
+                            <article id="sonic" class="card">
+                                <header class="card-header">
+                                    <h3>Sonic Release</h3>
+                                </header>
+                                <img src="./lib/imgs/sonic.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">A Primeira versão</h5>
+                                    <p class="card-text">Download da primeira versão de P-06</p>
+                                    <button class="btn btn-info" type="button">Baixar Aqui</button>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 post">
+                            <article id="shadow" class="card">
+                                <header class="card-header">
+                                    <h3>Shadow Release</h3>
+                                </header>
+                                <img src="./lib/imgs/shadow.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">A segunda versão</h5>
+                                    <p class="card-text">Download da segunda versão de P-06</p>
+                                    <button class="btn btn-info" type="button">Baixar Aqui</button>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4 post">
+                            <article id="silver" class="card">
+                                <header class="card-header">
+                                    <h3>Silver Release</h3>
+                                </header>
+                                <img src="./lib/imgs/silver.png">
+                                <div class="card-body">
+                                    <h5 class="card-title">A Última versão</h5>
+                                    <p class="card-text">Download da versão mais recente de P-06</p>
+                                    <button class="btn btn-info" type="button">Baixar Aqui</button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            2025&copy; p06 site - todos os direitos reservados
+        </div>
+    </footer>
+</body>
+<script src="./lib/bootstrap.bundle.min.js"></script>
+</html>

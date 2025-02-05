@@ -1,0 +1,70 @@
+#cabecalho{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color:rgb(35, 67, 119);
+    color: antiquewhite;
+    z-index: 4;
+}
+
+.nav-link{
+    color: antiquewhite;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.carousel-control-prev:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-next:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+}
+
+section{
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+#sonic{
+    background-color:rgb(67, 126, 254) ;
+}
+
+#shadow {
+    background-color: rgb(241, 89, 18, 0.7);
+}
+
+#silver{
+    background-color: rgb(122, 254, 249, 0.7);
+}
+
+#lancamentos img{
+    max-height: 371px;
+    object-fit: scale-down;
+}
+
+footer{
+    background-color:rgb(35, 67, 119);
+    color: aliceblue;
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    .col-md-4{
+        width: 50%;
+        margin-bottom: 24px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .col-md-4{
+        margin-bottom: 24px;
+    }
+}
